@@ -19,4 +19,4 @@ sudo apt install -y \
 
 # -opt:3 enables high-level optimizations
 # -out:game names the resulting file
-odin build examples/demo/square_badger_v7.odin -opt:3 -out:game
+odin build examples/demo/square_badger_v7.odin -o:minimal -out:game
